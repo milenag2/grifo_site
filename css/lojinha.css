@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(158, 13, 13);
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../img/grifo1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.coluna1, .coluna2, .coluna3{
+    display:flex;
+    justify-content: center;
+    margin: 0 5%;  
+    flex: 1;
+
+}
+.marx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-width: 1px;
+    border-radius: 5%;
+    background-color:rgb(255,255,255,0.50);
+    width: 20%;
+    margin: 3%;
+}
+main img{
+display: flex;
+object-fit: contain;
+width: 100%;
+height: 100%;
+    
+}
+.prod{
+ display: flex;
+ justify-content: center;
+ font-weight: bold;
+ font-family: 'Inter';
+ font-style: 'normal';
+ color: black;
+
+}
+
+.prdt:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.price{
+ display: flex;
+ justify-content: center;
+ font-family: 'Inter';
+ font-style: 'normal';
+ color: black;
+}
+.topo{
+    background-color: black;
+    box-sizing: border-box;
+    height: 172px;
+    font-size: min(33px,1.9vw);
+    text-align: center;
+    width:100%;
+    position: fixed;
+    top: o;
+    }
+      .topo a{
+          color: white;
+          text-decoration: none;
+          }
+       body{
+           margin: 0;
+           background:rgb(155, 10, 10);
+           color:white;
+           }
+      .icones{
+          width:10%;
+          float:right;
+          height: 35px;
+          position:relative;
+          top:40%;
+          }
+              
+      .titulo{
+        padding-top:  16rem; 
+        display: flex;
+        justify-content: center;
+        font-family: 'Graduate';
+        font-style: 'normal';
+        font-size: 4vw;
+
+      }
